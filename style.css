@@ -1,3 +1,17 @@
-.hero-title {
-color:#2F303A;
-}
+:root{
+    --hero-color:#2F303A;
+    --text-color:#FFF;
+    --button-color:#2196F3;
+    --featurestext1-color:#757575;
+    --featurestext2-color: #757575;
+    --featurestext3-color: #757575;
+    --featurestext4-color: #757575;
+    --abouttext1-color: #757575;
+    --abouttext2-color: #757575;
+    --abouttext3-color: #757575;
+    --abouttext4-color: #757575;
+    --fotertext-color:#2F303A;
+    --adress-color: #FFF;
+    --gmail-color:rgba(255, 255, 255, 0.60);
+    --number-color:rgba(255, 255, 255, 0.60);
+ }
