@@ -1,17 +1,55 @@
 :root{
+    --logo-first-part-color: #2196F3;
+    --logo-second-part-color: #000;
     --hero-color:#2F303A;
-    --text-color:#FFF;
+    --text-button-color:#FFF;
     --button-color:#2196F3;
-    --featurestext1-color:#757575;
-    --featurestext2-color: #757575;
-    --featurestext3-color: #757575;
-    --featurestext4-color: #757575;
-    --abouttext1-color: #757575;
-    --abouttext2-color: #757575;
-    --abouttext3-color: #757575;
-    --abouttext4-color: #757575;
+    --featurestext-color:#757575;
+    --abouttext-color: #757575;
     --fotertext-color:#2F303A;
-    --adress-color: #FFF;
-    --gmail-color:rgba(255, 255, 255, 0.60);
-    --number-color:rgba(255, 255, 255, 0.60);
+    --gmail-phone-color:rgba(255, 255, 255, 0.60);
+    --nav-color: #212121;
+}
+
+ body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
  }
+ .logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+ }
+ .navigation-link{
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color:var(--nav-color) ;
+ }
+ .navigation-link:hover,
+  .navigation-link:focus{
+    color: var(--logo-first-part-color) ;
+  }
+ .contacts-list{
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color:var(--abouttext-color);
+ }
+.contacts-list:hover,
+  .contacts-list:focus {
+      color: var(--logo-first-part-color);
+  }
+  .hero-title{
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 2.64px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: var(--text-button-color);
+    text-align: center;
+  }
+  .work-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--nav-color) ;
+  }
