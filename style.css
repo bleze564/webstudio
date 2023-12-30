@@ -51,7 +51,7 @@
 
 .navigation-list{
    list-style-type: none;
-   padding: px;
+
  }
 
  .navigation-link1{
@@ -121,6 +121,12 @@
     font-style: normal;
     width: 696px;
     flex-shrink: 0;
+    position: absolute;
+    top: 200;
+    bottom: 280;
+    left: 452;
+    right: 452;
+    text-align: center;
   }
   .work-title{
     font-size: 36px;
@@ -155,12 +161,67 @@
 .work-list{
    list-style-type: none;
 }
-.team{
+.team {
    list-style-type: none;
 }
+/* .team{
+   list-style-type: none;
+   width: 1600px;
+   height: 648px;
+   flex-shrink: 0;
+} */
 .page-footer{
    width: 1600px;
    height: 252px;
    flex-shrink: 0;
    background-color: var(--fotertext-color);
+}
+.team-members-name{
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 0.48px;
+   color: var(--nav-color);
+}
+.team-members-position{
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0.48px;
+   color: var(--abouttext-color);
+}
+.address-location-link{
+   font-size: 14px;
+   font-weight: 400;
+   line-height:171%;
+   color: var(--text-button-color);
+}
+
+
+
+
+/* this is portfolio (and baton) */
+.box-of-baton{
+   list-style-type: none;
+}
+
+.baton{
+font-size: 16px;
+font-weight: 500;
+line-height:162%;
+letter-spacing: 0.48px;
+}
+.cardss{
+   list-style-type: none;
+}
+.tipobaton{
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0.48px;
+   line-height:187%;
+   color: var(--abouttext-color);
+}
+.nebaton{
+   font-size: 18px;
+   font-weight: 700;
+   line-height:200%;
+   color: var(--nav-color);
 }
