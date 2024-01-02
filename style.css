@@ -198,28 +198,28 @@
 
 
 
-/* this is portfolio (and baton) */
-.box-of-baton{
+/* this is portfolio  */
+.box-of-button{
    list-style-type: none;
 }
 
-.baton{
+.portfolio-button{
 font-size: 16px;
 font-weight: 500;
 line-height:162%;
 letter-spacing: 0.48px;
 }
-.cardss{
+.cards-portfolio{
    list-style-type: none;
 }
-.tipobaton{
+.card-description{
    font-size: 16px;
    font-weight: 400;
    letter-spacing: 0.48px;
    line-height:187%;
    color: var(--abouttext-color);
 }
-.nebaton{
+.card{
    font-size: 18px;
    font-weight: 700;
    line-height:200%;
