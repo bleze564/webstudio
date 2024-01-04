@@ -15,27 +15,25 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
  }
- .page-header{
-    width: 1600px;
-    height: 80px;
+ .header{
     flex-shrink: 0;
  }
 
- .logo-first-part{
+ .logo-span{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: var(--button-color);
  }
- .logo-second-part{
+ .logo{
       text-decoration: none;
       font-family: 'Raleway', sans-serif;
       font-size: 26px;
       font-weight: 700;
       color: var(--logo-second-part-color);
  }
-.logo-third-part{
+.logo-footer{
    text-decoration: none;
    font-family: 'Raleway', sans-serif;
    font-size: 26px;
@@ -54,60 +52,25 @@
 
  }
 
- .navigation-link1{
+ .navigation-link{
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.28px;
     color:var(--nav-color) ;
-    position: absolute;
-    top: 32px;
-    bottom: 32px;
-    left: 453px;
-    right: 1102px;
  }
-  .navigation-link2 {
-     text-decoration: none;
-     font-weight: 500;
-     letter-spacing: 0.28px;
-     color: var(--nav-color);
-     position: absolute;
-     top: 32px;
-     bottom: 32px;
-     left: 548px;
-     right: 980px;
-  }
-  .navigation-link3 {
-     text-decoration: none;
-     font-weight: 500;
-     letter-spacing: 0.28px;
-     color: var(--nav-color);
-     position: absolute;
-     top: 32px;
-     bottom: 32px;
-     left: 670px ;
-     right: 866px ;
-  }
 
- .navigation-link1:hover,
-  .navigation-link1:focus{
+ .navigation-link:hover,
+  .navigation-link:focus{
     color: var(--logo-first-part-color) ;
   }
- .navigation-link2:hover,
-  .navigation-link2:focus {
-         color: var(--logo-first-part-color);
-      }
- .navigation-link3:hover,
-  .navigation-link3:focus {
-                color: var(--logo-first-part-color);
-             }
- .contacts-list{
+ .contacts-link{
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.28px;
     color:var(--abouttext-color);
  }
-.contacts-list:hover,
-  .contacts-list:focus {
+.contacts-link:hover,
+  .contacts-link:focus {
       color: var(--logo-first-part-color);
   }
   .hero-title{
@@ -120,40 +83,22 @@
     text-align: center;
     font-style: normal;
     width: 696px;
-    flex-shrink: 0;
-    position: absolute;
-    top: 200;
-    bottom: 280;
-    left: 452;
-    right: 452;
     text-align: center;
   }
   .work-title{
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
     color: var(--nav-color) ;
   }
   .hero{
    background-color:var(--hero-color);
-   width: 1600px;
-   height: 600px;
-   flex-shrink: 0;
   }
 .hero-button{
    text-align: center;
-   width: 216px;
-   height: 50px;
-   flex-shrink: 0;
    border-radius: 4px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
    color: var(--text-button-color);
    background-color:var(--button-color) ;
-   position: absolute;
-   top: 350px ;
-   bottom: 200px; 
-   right: 692px; 
-   left: 692px; 
 }
 .features-list{
    list-style-type: none;
@@ -161,7 +106,7 @@
 .work-list{
    list-style-type: none;
 }
-.team {
+.team-list{
    list-style-type: none;
 }
 /* .team{
@@ -170,10 +115,7 @@
    height: 648px;
    flex-shrink: 0;
 } */
-.page-footer{
-   width: 1600px;
-   height: 252px;
-   flex-shrink: 0;
+.footer{
    background-color: var(--fotertext-color);
 }
 .team-members-name{
@@ -199,7 +141,7 @@
 
 
 /* this is portfolio  */
-.box-of-button{
+.filter{
    list-style-type: none;
 }
 
@@ -209,17 +151,17 @@ font-weight: 500;
 line-height:162%;
 letter-spacing: 0.48px;
 }
-.cards-portfolio{
+.portfolio-list{
    list-style-type: none;
 }
-.card-description{
+.portfolio-description{
    font-size: 16px;
    font-weight: 400;
    letter-spacing: 0.48px;
    line-height:187%;
    color: var(--abouttext-color);
 }
-.card{
+.portfolio-title{
    font-size: 18px;
    font-weight: 700;
    line-height:200%;
