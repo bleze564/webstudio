@@ -60,7 +60,19 @@ padding-bottom: 25px;
 display: flex;
 
  }
+ .features-list{
+   display: flex;
+   justify-content: space-between;
 
+ }
+ 
+.features-card{
+   width: 270px ; 
+}
+.features{
+   margin-top: 94px;
+   margin-bottom: 94px;
+}
  .navigation-link{
     text-decoration: none;
     font-weight: 500;
@@ -74,6 +86,10 @@ display: flex;
   }
 .navigation-item{
    margin-right: 50px;
+}
+.team-title{
+   margin-bottom: 50px;
+   text-align: center;
 }
 .navigation{
    display: flex;
@@ -104,7 +120,30 @@ display: flex;
     font-size: 36px;
     font-weight: 700;
     color: var(--nav-color) ;
+    text-align: center;
+    margin-bottom: 50px;
   }
+  .work-list{
+   display: flex;
+   justify-content: space-between;
+  }
+.work-item{
+ width: 370px;
+}
+.team-list{
+   display: flex;
+   justify-content: space-between;
+}
+.team-card{
+   width: 270px;
+}
+address{
+   display: flex;
+   flex-direction: column;
+}
+.contacts-list{
+   margin-top: 9px;
+}
   .hero{
    padding-top:200px ;
    padding-bottom: 200px;
@@ -129,6 +168,7 @@ display: flex;
 .footer{
    background-color: var(--fotertext-color);
 }
+
 .team-members-name{
    font-size: 16px;
    font-weight: 500;
@@ -146,6 +186,7 @@ display: flex;
    font-weight: 400;
    line-height:171%;
    color: var(--text-button-color);
+   margin-top: 20px;
 }
 .contacts{
    display: flex;
