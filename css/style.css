@@ -91,6 +91,21 @@ display: flex;
    margin-bottom: 50px;
    text-align: center;
 }
+.portfolio-list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+}
+.portfolio-item{
+   flex-basis: calc((100% - 60px) / 3);
+}
+.filter{
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+   margin-bottom: 50px;
+}
 .navigation{
    display: flex;
    align-items: center;
