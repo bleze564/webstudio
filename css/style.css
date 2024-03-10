@@ -144,27 +144,31 @@ display: flex;
    justify-content: space-between;
 
   }
+ .work-img{
+   width: 370px;
+   height: 280px;
+ }
 .work-item{
    width: 370px;
    height: 294px;
 }
-.work-item::before{
+.features-card::before{
    content: '';
    display: block;
    width: 100%;
    height: 294px;
    background-color: #FFF;
    border-radius: 4px;
-   background-image:url(/images/main1.jpg) ;
+   background-image:url() ;
    background-size: 294px ;
    background-repeat: no-repeat;
    background-position: center;
 }
-.work-item:nth-child(2)::before{
-   background-image: url(/images/main2.jpg);
+.features-card:nth-child(2)::before{
+   background-image: url();
 }
-.work-item:nth-child(3)::before{
-   background-image: url(/images/main3.jpg);
+.features-card:nth-child(3)::before{
+   background-image: url();
 }
 .team{
    padding-top: 140px;
