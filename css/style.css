@@ -159,7 +159,6 @@ display: flex;
    background-size: 294px ;
    background-repeat: no-repeat;
    background-position: center;
-   basi
 }
 .work-item:nth-child(2)::before{
    background-image: url(/images/main2.jpg);
