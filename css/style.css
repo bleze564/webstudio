@@ -142,9 +142,19 @@ display: flex;
   .work-list{
    display: flex;
    justify-content: space-between;
+
   }
+
+.work-item::before{
+   content: '' ;
+   background-image:url(main1.jpg) ;
+   height: 270px;
+   width: 370px;
+   background-color: #212121;
+}
 .work-item{
- width: 370px;
+   height: 270px;
+    width: 370px;
 }
 .team{
    padding-top: 140px;
