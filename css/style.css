@@ -156,29 +156,37 @@ display: flex;
    content: '';
    display: block;
    width: 100%;
-   height: 294px;
-   background-color: #FFF;
+   height: 120px;
+   background-color:rgba(245, 244, 250, 1);;
    border-radius: 4px;
-   background-image:url() ;
-   background-size: 294px ;
+   background-image:url(../images/features1.jpg) ;
+   background-size: 70px ;
    background-repeat: no-repeat;
    background-position: center;
 }
 .features-card:nth-child(2)::before{
-   background-image: url();
+   background-image: url(../images/features2.jpg);
 }
 .features-card:nth-child(3)::before{
-   background-image: url();
+   background-image: url(../images/features3.jpg);
+}
+.features-card:nth-child(4)::before {
+   background-image: url(../images/features4.jpg);
 }
 .team{
-   padding-top: 140px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-color: rgba(245, 244, 250, 1);
 }
 .team-list{
    display: flex;
    justify-content: space-between;
 }
 .team-card{
+   text-align: center;
+   height:368px;
    width: 270px;
+   background-color: #FFF;
 }
 address{
    display: flex;
@@ -186,6 +194,7 @@ address{
 }
 .contacts-list{
    margin-top: 9px;
+   color: #757575;
 }
   .hero{
    padding-top:200px ;
@@ -247,6 +256,7 @@ font-size: 16px;
 font-weight: 500;
 line-height:162%;
 letter-spacing: 0.48px;
+border: 0;
 }
 
 .portfolio-description{
