@@ -207,7 +207,10 @@ address{
   .hero{
    padding-top:200px ;
    padding-bottom: 200px;
-   background-color:var(--hero-color);
+   background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(48, 47, 58, 0.4)), url(../images/backgroundhero.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
   }
 .hero-button{
    text-align: center;
