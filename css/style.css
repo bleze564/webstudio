@@ -271,6 +271,26 @@ body {
    justify-content: space-between;
 }
 
+.clients-icon {
+   height: 60px;
+   width: 106px;
+   fill: var(--abouttext-color);
+   margin-top: 16px;
+}
+
+.clients-item {
+   width: 170px;
+   height: 92px;
+   text-align: center;
+   margin-bottom: 94px;
+   border: 1px solid var(--abouttext-color);
+   border-radius: 4px;
+}
+
+.clients-item:hover .clients-icon {
+   fill: var(--button-color);
+   color: var(--button-color);
+}
 
 .team-icon {
    width: 20px;
