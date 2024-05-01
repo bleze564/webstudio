@@ -102,6 +102,7 @@ body {
    font-size: 40px;
    margin-bottom: 50px;
    text-align: center;
+   margin-top: 94px;
 }
 
 .portfolio-list {
@@ -266,6 +267,37 @@ body {
    fill: var(--text-button-color);
 }
 
+.fotter-social {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 30px;
+   margin-top: 16px;
+}
+
+.fotter-links {}
+
+.fotter-social-links {
+   width: 44px;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   fill: var(--text-button-color);
+   border-radius: 50%;
+   background-color: #afb1b8;
+}
+
+.fotter-social-links:hover {
+   background-color: var(--button-color);
+   fill: var(--text-button-color);
+}
+
+.fotter-social-icon {
+   width: 20px;
+   height: 20px;
+}
+
 .clients-list {
    display: flex;
    justify-content: space-between;
@@ -287,9 +319,12 @@ body {
    border-radius: 4px;
 }
 
-.clients-item:hover .clients-icon {
+.clients-item:hover {
+   border: 1px solid var(--button-color);
+}
+
+.clients-icon:hover {
    fill: var(--button-color);
-   color: var(--button-color);
 }
 
 .team-icon {
